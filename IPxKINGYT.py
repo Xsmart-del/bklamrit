@@ -19,7 +19,7 @@ import psutil
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '7258677107:AAGekf36d_rZd5PzsdaBHwjV8PCi3z2RVRg'
+TOKEN = '7350883849:AAGkxJecRtQmEHFs2kFzf6zcDwi2i-PgAVs'
 MONGO_URI = 'mongodb+srv://rishi:ipxkingyt@rishiv.ncljp.mongodb.net/?retryWrites=true&w=majority&appName=rishiv'
 FORWARD_CHANNEL_ID = -1002027880444
 CHANNEL_ID = -1002027880444
