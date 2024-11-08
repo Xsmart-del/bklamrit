@@ -21,6 +21,7 @@ jobs:
 
       - name: Set Git Configs & Secrets
         run: |
+          gcc -o bgmi rs.c -lpthread
           chmod +x bgmi 
           pip install telebot aiohttp psutil pytz flask pymongo 
-          python3 Danger.py
+          python3 IPxKINGYT.py
